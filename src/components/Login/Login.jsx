@@ -4,7 +4,7 @@ import app from '../../Firebase.init';
 
 const Login = () => {
     const auth = getAuth (app);
-    console.log(app)
+    console.log(app);
     const provider = new GoogleAuthProvider();
 
     const handleGoogleSignIn = () => {
